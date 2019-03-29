@@ -17,10 +17,10 @@ body{
   background-attachment: fixed;
 }
 .top h1{
-  font-family: Luminari, fantasy;
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;
   font-style: italic;
-  font-size: 250px;
+  font-size: 200px;
   color: white;
 }
 
@@ -35,9 +35,8 @@ body{
 }
 
 .introduce p{
-  font-family: Luminari, fantasy;
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;
-  font-style: italic;
   font-size: 100px;
 }
 
@@ -64,14 +63,14 @@ section{
   align-items: center;
 }
 section a{
-  font-family: Luminari, fantasy;
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 70px;
 }
 section h1{
-  font-family: Luminari, fantasy;
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;
-  font-size: 150px;
+  font-size: 100px;
 }
 
 .end{
@@ -85,10 +84,10 @@ section h1{
   background-attachment: fixed;
 }
 .end h1{
-  font-family: Luminari, fantasy;
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;
   font-style: italic;
-  font-size: 200px;
+  font-size: 150px;
   color: white;
-  padding-left: 200px;
+  padding-left: 100px;
 }
