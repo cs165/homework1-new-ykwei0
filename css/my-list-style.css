@@ -1,3 +1,94 @@
 /**
  TODO(you): Add CSS for the list that you create yourself!
 */
+body{
+  margin: 0;
+  text-align: center;
+}
+.top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../images/g0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.top h1{
+  font-family: Luminari, fantasy;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 250px;
+  color: white;
+}
+
+.introduce{
+  background-color: white;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.introduce p{
+  font-family: Luminari, fantasy;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 100px;
+}
+
+.parallax{
+  /*background-image: url(../images/g1.jpg);*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.pa1{
+  background-image: url(../images/g2.jpg);
+}
+.pa2{
+  background-image: url(../images/g1.jpg);
+}
+
+section{
+  display: flex;
+  height: 200px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+section a{
+  font-family: Luminari, fantasy;
+  font-weight: bold;
+  font-size: 80px;
+}
+section h1{
+  font-family: Luminari, fantasy;
+  font-weight: bold;
+  font-size: 150px;
+}
+
+.end{
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../images/g0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.end h1{
+  font-family: Luminari, fantasy;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 200px;
+  color: white;
+  padding-left: 200px;
+}
